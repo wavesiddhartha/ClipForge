@@ -1,0 +1,33 @@
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Backend specific storage & environment
+backend/.env
+backend/storage/audio/
+backend/storage/video/
+backend/storage/renders/
+backend/storage/cache.json
+
+# Node modules and build output (frontend handled by nested gitignore, but good to have)
+node_modules/
+dist/
+dist-ssr/
+*.local
